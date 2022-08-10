@@ -1,0 +1,12 @@
+<div class="list-chats">
+    <ul>
+        <li *ngFor="let user of listUserChat">
+            <h4>
+                {{user.name}}
+            </h4>
+            <p>{{user.lastMessage}}</p>
+        </li>
+    </ul>
+    <app-profile-block></app-profile-block>
+</div>
+

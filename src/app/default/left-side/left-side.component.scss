@@ -1,0 +1,21 @@
+app-profile-block {
+    margin-top: auto;
+}
+
+.list-chats {
+    background: rgb(235, 234, 234);
+    padding: .625rem .3125rem 0 .3125rem;
+    height: 100%;
+    li {
+        border: .0437rem solid black;
+        border-radius: .375rem;
+        height: 3.125rem;
+        padding: .625rem;
+        margin-bottom: .9375rem;
+        background: rgb(255, 255, 255);
+        &:hover {
+            cursor: pointer;
+            background: rgb(211, 211, 211);
+        }
+    }
+}
